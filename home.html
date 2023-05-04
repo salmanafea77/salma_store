@@ -1,0 +1,42 @@
+<html>
+<head>
+<title> Shoes Shop </title>
+<link rel="stylesheet" type="text/css" href="new.css">
+</head>
+<body bgcolor=black class="fade-in-image">
+<center>
+<h1> Salma Store </h1>
+<h3> For Shoes </h3>
+</center>
+<div>
+<img src="1.jpg" width="200px" height="200px">
+</div>
+<h2> Color: White <br> Size: 42 <br> Type: Adidas <br> Gender: Men <br> <button onClick="doit()">Buy Now </button></h2>
+<hr>
+<div>
+<img src="2.jpg" width="200px" height="200px">
+</div>
+<h2> Color: White <br> Size: 45 <br> Type: Unknown <br> Gender: Men <br> <button onClick="doit()">Buy Now </button></h2>
+<hr>
+<div>
+<img src="3.jpg" width="200px" height="200px">
+</div>
+<h2> Color: White <br> Size: 44 <br> Type: Adidas <br> Gender: Men <br> <button onClick="doit()">Buy Now </button></h2>
+<hr>
+<div>
+<img src="4.jpg" width="200px" height="200px">
+</div>
+<h2 class="newCol"> Color: White <br> Size: 41 <br> Type: Adidas <br> Gender: Men <br> <button onClick="doit()">Buy Now </button></h2>
+</body>
+<script>
+function doit() {
+  var txt;
+  if (confirm("Are you sure?")) {
+    txt = "Purchase request sent";
+  } else {
+    txt = "Request has been cancelled";
+  }
+  alert(txt);
+}
+</script>
+</html>

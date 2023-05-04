@@ -1,0 +1,61 @@
+h1, h2, h3, li {
+	color: black;
+}
+
+div, h3 {
+  display:inline-block;
+  border: 2px solid black
+}
+
+h2 {
+	float: right;
+	border: 2px solid black;
+}
+
+body {
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	  background-size: 100% 100%;
+}
+
+h1 {
+	border: 2px solid black;
+}
+
+.newCol{
+	color: white;
+	border: 2px solid white;
+}
+
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
